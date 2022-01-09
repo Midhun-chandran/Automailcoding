@@ -1,0 +1,15 @@
+{
+  "name": "auto-mail",
+  "version": "1.0.0",
+  "description": "Backend creation with Automatic mailing feature",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Midhun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  }
+}
