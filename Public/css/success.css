@@ -1,0 +1,26 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  body{
+      background-image: url(../img/email.gif);
+      background-size: cover;
+  }
+
+  h1 {
+      padding-top: 8%;
+      padding-left: 32%;
+      font-size: 50px;
+      color: rgb(250, 253, 250);
+  }
+
+  .navbar {
+      padding-left: 45%;
+      font-size: 20px;
+      background-color: white;
+      height: 40px;
+  }
+
+  .link {
+      text-decoration: none;
+  }

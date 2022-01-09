@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color:rgb(74, 74, 253);
+}
+
+
+#emailSec {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.email {
+    font-size: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#email {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    font-size: 40px;
+}
+
+#email:focus {
+    background-color: rgb(171, 182, 231);
+    border-radius: 4px;
+}
+
+#error {
+    position: absolute;
+    left: 39%;
+    top: 50%;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#submit {
+    position: absolute;
+    left: 43%;
+    top: 60%;
+    font-size: 30px;
+
+}
+
+.navbar {
+    padding-left: 45%;
+    font-size: 20px;
+    background-color: white;
+    height: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(199, 149, 245);
+    border-radius: 10px;
+}
+
