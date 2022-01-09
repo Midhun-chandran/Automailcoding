@@ -26,14 +26,14 @@ app.get('/mailer', (req, res) => {
             service: "gmail",
             secure: false, // true for 465, false for other ports
             auth: {
-                user: "saragmohtesting@gmail.com",
-                pass: "sarag12345",
+                user: "emailtestmithu@gmail.com",
+                pass: "Mailtester",
             },
         });
 
 
         let info = await transporter.sendMail({
-            from: 'saragmohtesting@gmail.com', // sender address
+            from: 'emailtestmithu@gmail.com', // sender address
             to: mail, // list of receivers
             subject: "Automailer", // Subject line
             text: "You have recieved a confirmation email from automailer", // plain text body
