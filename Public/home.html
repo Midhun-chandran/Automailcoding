@@ -7,13 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp</title>
 <style>
+    *{
+            margin: 0;
+            padding: 0;
+        }
     #emailSec{
         position: absolute;
         left:40%;
         top:30%;
     }
-    .emailFont{
+    .email{
         font-size: 40px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: white;
     }
 
     #email{
@@ -42,31 +48,40 @@
         font-size: 40px;
     }
 
-    .navbar{
+     .navbar{
             padding-left: 45%;
             font-size: 20px;
+            background-color: white;
+            height: 40px;
         }
+     .link  
+     {
+         text-decoration: none;
+     } 
+     .btn{
+         cursor: pointer;
+     }
 </style>
 </head>
 
 <body>
 
-    <body style="background-color:grey">
+    <body style="background-color:rgb(74, 74, 253)">
 
         <nav class="navbar">
-            <a href="./index.html">Welcome</a>
-            <a href="./home.html">Home</a>
+            <a href="./index.html" class="link">Welcome</a>
+            <a href="./home.html" class="link">Home</a>
         </nav>
         <form action="/mailer" onsubmit="return validate()">
             <div>
-                <label for="email" class="emailFont" id="emailSec">Enter your email id</label>
+                <label for="email" class="email" id="emailSec">Enter your email id</label>
                 <br><br>
                 <input type="text" Placeholder="Enter your email" name="email" id="email">
                 <br/>
                 <label for="error" id="error"></label>
            
                  <br/>
-                <button id="submit">Send Email</button>
+                <button id="submit" class="btn">Send Email</button>
             </div>
         </form>
     <script>
